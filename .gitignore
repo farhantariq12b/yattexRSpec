@@ -11,3 +11,5 @@
 
 # rspec failure tracking
 .rspec_status
+
+/.yattex-0.0.0.gem/
