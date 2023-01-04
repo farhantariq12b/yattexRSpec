@@ -27,8 +27,8 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  rspec (~> 3.0)
+  rspec (~> 3.12)
   yattex!
 
 BUNDLED WITH
-   2.3.22
+   2.4.2
