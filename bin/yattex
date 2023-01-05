@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
-require "rubygems"
-require "bundler/setup"
+
 require 'yattex'
+include Yattex
 
-
-load Gem.bin_path("rake", "rake")
+Yattex::runTests
