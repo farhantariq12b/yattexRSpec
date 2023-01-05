@@ -3,7 +3,7 @@
 require 'rspec'
 require 'json'
 require 'fileutils'
-require_relative "yattex/runner"
+
 
 module Yattex
   # Your code goes here...
