@@ -20,8 +20,6 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "http://rubygems.org/gems/yattex"
   spec.metadata["changelog_uri"] = "http://rubygems.org/gems/yattex"
 
-  spec.executables = ["yattex"]
-
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -31,7 +29,7 @@ Gem::Specification.new do |spec|
     end
   end
   spec.bindir = "exe"
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+  spec.executables = ["yattex"]
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
