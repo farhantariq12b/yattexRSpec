@@ -1,7 +1,9 @@
 
 include Yattex
 
-desc 'Run Yattex'
-task yattex: :environment do
-  runTests
+namespace :yattex do
+  desc 'Run Yattex'
+  task runYattex: :environment do
+    runTests
+  end
 end
