@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "http://rubygems.org/gems/yattex"
   spec.metadata["changelog_uri"] = "http://rubygems.org/gems/yattex"
 
-  s.executables = ["yattex"]
+  spec.executables = ["yattex"]
 
 
   # Specify which files should be added to the gem when it is released.
